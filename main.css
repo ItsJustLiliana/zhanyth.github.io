@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to bottom, #6bffff 0%, #bbfffd 100%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2,
+p2 {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif
+}
+
+p1 {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    border-spacing: 40px 0px;
+    border-width: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
+
+f,
+.footer {
+    font-family: Kanit;
+
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    border-spacing: 40px 0px;
+    border-width: 10px;
+    border-radius: 20px;
+
+    position: relative;
+    top: 100px;
+    left: 8px;
+}
+
+a {
+    color: black;
+    font-family: Kanit;
+    text-decoration: none;
+    font-style: bold;
+}
