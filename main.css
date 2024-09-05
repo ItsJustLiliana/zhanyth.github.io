@@ -2,6 +2,7 @@
 body {
     background: linear-gradient(to bottom, #000000 50%, #2071dc 100%);
     height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: left;
@@ -28,13 +29,17 @@ h1 {
 
 
 /* Explanatory text and titles*/
+article {
+    position: relative;
+    top: 30px;
+    left: 3%;
+}
+
+
 h2 {
     color: rgb(217, 238, 253);
     font-size: 40px;
     font-family: sans-serif;
-    position: relative;
-    top: 20px;
-    left: 30px;
 }
 
 .title {
@@ -42,9 +47,7 @@ h2 {
     font-size: 22px;
     font-style: bold;
     font-family: sans-serif;
-    position: relative;
-    top: 15px;
-    left: 33px;
+
 }
 
 p {
@@ -57,9 +60,6 @@ p {
     color: white;
     font-size: 16px;
     font-family: sans-serif;
-    position: relative;
-    top: 15px;
-    left: 33px;
     letter-spacing: 2px;
 }
 
@@ -92,16 +92,16 @@ a {
     text-align: left;
 }
 
-.footert {
-    position: relative;
-    left: 5px;
-}
-
 
 /* Navigation bar */
 .topnav {
     background-color: #ffffff00;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
 }
 
 .topnav a {
@@ -125,7 +125,40 @@ a {
 }
 
 
+/* Bottom navigation bar */
+.bottomnav {
+    background-color: white;
+    overflow: hidden;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.bottomnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    font-family: Kanit;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.bottomav a:hover {
+    background-color: #ffffffcd;
+    color: black;
+}
+
+
 /* Spacing in lines */
+.divmain {
+    margin-top: 60px;
+}
+
 .div1 {
     margin-top: 20px;
 }
