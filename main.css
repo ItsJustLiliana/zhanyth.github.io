@@ -1,3 +1,15 @@
+/* Main body */
+body {
+    background: linear-gradient(to bottom, #000000 50%, #2071dc 100%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+
+/* Header */
 header,
 .header {
     color: black;
@@ -5,14 +17,6 @@ header,
     text-decoration: none;
     font-style: bold;
     text-align: center;
-}
-
-body {
-    background: linear-gradient(to bottom, #000000 50%, #2071dc 100%);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    text-align: left;
 }
 
 h1 {
@@ -23,13 +27,7 @@ h1 {
 }
 
 
-p {
-    color: white;
-    font-size: 18px;
-    font-family: Kanit;
-
-}
-
+/* Explanatory text and titles*/
 h2 {
     color: rgb(217, 238, 253);
     font-size: 40px;
@@ -39,22 +37,42 @@ h2 {
     left: 30px;
 }
 
-p2 {
+.title {
     color: white;
-    font-size: 18px;
+    font-size: 22px;
+    font-style: bold;
     font-family: sans-serif;
     position: relative;
     top: 15px;
     left: 33px;
 }
 
+p {
+    color: white;
+    font-size: 18px;
+    font-family: Kanit;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: relative;
+    top: 15px;
+    left: 33px;
+    letter-spacing: 2px;
+}
+
+
+/* Remove line from links */
 a {
     text-decoration: none;
     color: black;
 }
 
-.footer,
-f {
+
+/* The footer */
+.footer {
     font-family: Kanit;
     color: black;
 
@@ -74,21 +92,21 @@ f {
     text-align: left;
 }
 
-f1 {
+.footert {
     position: relative;
-    left: 50px;
+    left: 5px;
 }
 
-/* Add a black background color to the top navigation */
+
+/* Navigation bar */
 .topnav {
-    background-color: #ffffff;
+    background-color: #ffffff00;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-family: Kanit;
     padding: 14px 16px;
@@ -96,14 +114,22 @@ f1 {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ffffffcd;
     color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4341d0;
+    background-color: #00459ecb;
     color: white;
+}
+
+
+/* Spacing in lines */
+.div1 {
+    margin-top: 20px;
+}
+
+.div2 {
+    margin-top: 200px;
 }
