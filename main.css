@@ -10,14 +10,55 @@ body {
 }
 
 
+/* Navigation bar */
+.topnav {
+    background-color: #ffffff00;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-family: Kanit;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ffffffcd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #0560d8cb;
+    color: white;
+}
+
+
 /* Header */
-header,
-.header {
+#hz-logo {
+    float: left;
+    width: 47px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+nav {
     color: black;
     font-family: Kanit;
     text-decoration: none;
     font-style: bold;
     text-align: center;
+    position: relative;
+    left: 11px;
 }
 
 h1 {
@@ -60,7 +101,7 @@ p {
     color: white;
     font-size: 16px;
     font-family: sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 
@@ -90,38 +131,6 @@ a {
     background-size: 20px;
     color: black;
     text-align: left;
-}
-
-
-/* Navigation bar */
-.topnav {
-    background-color: #ffffff00;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 5;
-}
-
-.topnav a {
-    float: left;
-    color: #ffffff;
-    text-align: center;
-    font-family: Kanit;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: #ffffffcd;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #00459ecb;
-    color: white;
 }
 
 
@@ -156,6 +165,10 @@ a {
 
 /* Spacing in lines */
 .divmain {
+    margin-top: 100px;
+}
+
+.divspace {
     margin-top: 60px;
 }
 
