@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@swup/head-plugin": "^2.2.0"
+  }
+}

@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/main.css">
-    <title>Portfolio Marijn</title>
+    <script src="https://unpkg.com/swup@4"></script>
+    <script> const swup = new Swup(); </script>
+    <script src="https://unpkg.com/@swup/head-plugin@2"></script>
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/transitions.css" />
+    <title>Dashboard</title>
 </head>
 
-<body>
+<body id="swup">
     <header>
         <nav>
             <div class="topnav">
@@ -25,7 +29,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main id="swup" class="transition-fade">
         <div class="divmain">
             <article>
                 <h2>Dashboard</h2>
