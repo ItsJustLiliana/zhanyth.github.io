@@ -1,18 +1,16 @@
 /* Main body */
 body {
     background: linear-gradient(to bottom, black 50%, #2071dc 100%);
-    height: 100%;
-    width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: left;
-    overflow-x: hidden;
 }
+
 
 
 /* Navigation bar */
 .topnav {
-    background-color: #ffffff00;
+    background-color: #000000dc;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -36,10 +34,11 @@ body {
     color: black;
 }
 
-.topnav a.active {
+.topnav a.activenav {
     background-color: #0560d8cb;
     color: white;
 }
+
 
 
 /* Header */
@@ -69,13 +68,13 @@ h1 {
 }
 
 
+
 /* Explanatory text and titles*/
 article {
-    position: relative;
-    top: 30px;
-    left: 3%;
+    color: white;
+    font-family: Kanit;
+    margin-top: 30px;
 }
-
 
 h2 {
     color: rgb(217, 238, 253);
@@ -104,12 +103,91 @@ p {
     letter-spacing: 1px;
 }
 
+.box {
+    display: block;
+    width: 100%;
+    background-color: #ffffff14;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 675px;
+}
+
+
+
+/* Table design */
+.table_component {
+    overflow: auto;
+    width: 100%;
+}
+
+.table_component table {
+    border: 1px solid #ffffff;
+    height: 100%;
+    width: 1000px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+.table_component caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.table_component th {
+    /*header*/
+    border: 1px solid #ffffff;
+    background-color: rgba(94, 188, 255, 0.444);
+    color: #ffffff;
+    padding: 5px;
+}
+
+.table_component td {
+    /*content*/
+    border: 1px solid #ffffff;
+    background-color: #ffffff14;
+    color: #ffffff;
+    padding: 5px;
+}
+
+
+
+/* Progress bar */
+progress {
+    display: block;
+    position: relative;
+    appearance: none;
+    width: 1000px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #ffffff14;
+    border: 0;
+    height: 12px;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgba(94, 188, 255, 0.444);
+    border: 0;
+    height: 12px;
+    border-radius: 20px;
+}
+
+
 
 /* Remove line from links */
 a {
     text-decoration: none;
     color: black;
 }
+
 
 
 /* The footer */
@@ -132,6 +210,7 @@ a {
     color: black;
     text-align: left;
 }
+
 
 
 /* Bottom navigation bar */
@@ -163,9 +242,11 @@ a {
 }
 
 
+
 /* Spacing in lines */
 .divmain {
     margin-top: 100px;
+    margin-left: 74px;
 }
 
 .divspace {
@@ -177,17 +258,65 @@ a {
 }
 
 .div2 {
-    margin-top: 200px;
+    margin-top: 15%;
+    margin-right: 19px;
 }
+
+
 
 
 /* Highlight coloring */
 ::selection {
-    background: white;
+    background: rgba(255, 255, 255, 0.379);
     /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-    background: white;
+    background: rgba(255, 255, 255, 0.379);
     /* Gecko Browsers */
+}
+
+
+
+/* Dropdown menu */
+.accordion {
+    background-color: #ffffffcd;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.activenav,
+.accordion:hover {
+    background-color: rgba(217, 238, 253, 0.822);
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after .activenav {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgba(255, 255, 255, 0);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.summary {
+    margin-right: 100px;
 }
