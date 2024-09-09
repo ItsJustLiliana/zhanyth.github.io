@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@swup/head-plugin": "^2.2.0"
+    "@swup/scripts-plugin": "^2.1.0"
   }
 }

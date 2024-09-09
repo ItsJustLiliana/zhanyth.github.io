@@ -1,2 +1,10 @@
-import Swup from 'https://unpkg.com/swup@4?module';
-const swup = new Swup();
+import SwupScriptsPlugin from '@swup/scripts-plugin';
+
+const swup = new Swup({
+    plugins: [new SwupScriptsPlugin()]
+});
+
+new SwupScriptsPlugin({
+    head: true,
+    body: true
+});

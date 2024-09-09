@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://unpkg.com/swup@4"></script>
-    <script> const swup = new Swup(); </script>
-    <script src="https://unpkg.com/@swup/head-plugin@2"></script>
+    <!--<script> const swup = new Swup(); </script>  !TEMP DISABLED!-->
     <link rel="stylesheet" href="style/main.css" />
     <link rel="stylesheet" href="style/transitions.css" />
     <title>FAQ</title>
 </head>
 
-<body id="swup">
+<body> <!--id="swup"  !TEMP DISABLED!-->
     <header>
         <nav>
             <div class="topnav">
@@ -23,8 +22,8 @@
                     <a href="profile.html">Profile</a>
                     <a href="games.html">Games</a>
                     <a href="blog.html">Blog</a>
-                    <a class="activenav" href="faq.html">FAQ</a>
                     <a href="dashboard.html">Dashboard</a>
+                    <a class="activenav" href="faq.html">FAQ</a>
                 </nav>
             </div>
         </nav>
@@ -34,12 +33,13 @@
             <article>
                 <h2>Frequently Asked Questions</h2>
                 <b>
-                    <p class="text">Provides answers to your general questions!</p>
+                    <p class="text" style="font-size: 20px;">Provides answers to your general questions!</p>
                 </b>
+                <div class="divfaq"></div>
             </article>
 
             <summary id="swup" class="summary">
-                <button class="accordion">How can you print a document fro your laptop at HZ?</button>
+                <button class="accordion">How can you print a document from your laptop at HZ?</button>
                 <div class="panel">
                     <p>You have to connect your laptop to "HZ printer" by going to hz.mynetpay.nl. Then You will have to
                         log in with your HZ account, and then you can use the printer.</p>
@@ -75,9 +75,7 @@
                         <br />
                     </p>
                 </div>
-
                 <script src="style/dropdown.js"></script>
-
             </summary>
     </main>
     <footer>

@@ -174,7 +174,7 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-    background-color: rgba(94, 188, 255, 0.444);
+    background-color: rgba(94, 188, 255, 0.623);
     border: 0;
     height: 12px;
     border-radius: 20px;
@@ -243,41 +243,6 @@ a {
 
 
 
-/* Spacing in lines */
-.divmain {
-    margin-top: 100px;
-    margin-left: 74px;
-}
-
-.divspace {
-    margin-top: 60px;
-}
-
-.div1 {
-    margin-top: 20px;
-}
-
-.div2 {
-    margin-top: 15%;
-    margin-right: 19px;
-}
-
-
-
-
-/* Highlight coloring */
-::selection {
-    background: rgba(255, 255, 255, 0.379);
-    /* WebKit/Blink Browsers */
-}
-
-::-moz-selection {
-    background: rgba(255, 255, 255, 0.379);
-    /* Gecko Browsers */
-}
-
-
-
 /* Dropdown menu */
 .accordion {
     background-color: #ffffffcd;
@@ -288,7 +253,8 @@ a {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 17px;
+    font-family: Kanit;
     transition: 0.4s;
 }
 
@@ -319,4 +285,44 @@ a {
 
 .summary {
     margin-right: 100px;
+}
+
+
+
+
+/* Spacing in lines */
+.divmain {
+    margin-top: 100px;
+    margin-left: 74px;
+}
+
+.divspace {
+    margin-top: 60px;
+}
+
+.divfaq {
+    margin-top: 35px;
+}
+
+.div1 {
+    margin-top: 20px;
+}
+
+.div2 {
+    margin-top: 15%;
+    margin-right: 19px;
+}
+
+
+
+
+/* Highlight coloring */
+::selection {
+    background: rgba(255, 255, 255, 0.379);
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: rgba(255, 255, 255, 0.379);
+    /* Gecko Browsers */
 }
