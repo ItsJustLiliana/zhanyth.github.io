@@ -46,7 +46,7 @@ body {
     float: left;
     width: 47px;
     position: relative;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -246,7 +246,7 @@ a {
 /* Dropdown menu */
 .accordion {
     background-color: #ffffffcd;
-    color: #444;
+    color: #000000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -271,7 +271,7 @@ a {
     margin-left: 5px;
 }
 
-.active:after .activenav {
+.active:after {
     content: "\2212";
 }
 
@@ -286,6 +286,69 @@ a {
 .summary {
     margin-right: 100px;
 }
+
+
+
+/* Slideshows */
+.mySlides1,
+.mySlides2 {
+    display: none;
+    margin-left: 60%;
+    position: relative;
+    bottom: 170px;
+}
+
+.mySlides3 {
+    display: none;
+    margin-left: 60%;
+    position: relative;
+    bottom: 185px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+    bottom: 35px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    bottom: 100%;
+    width: auto;
+    margin-left: 60%;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
 
 
 
@@ -313,6 +376,12 @@ a {
     margin-right: 19px;
 }
 
+.divblank {
+    height: -100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
 
 
 
