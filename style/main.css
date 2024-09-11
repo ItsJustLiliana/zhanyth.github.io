@@ -123,7 +123,7 @@ body {
 }
 
 .topnav a.activenav {
-    background-color: #0560d8cb;
+    background-color: #0560d8a4;
     color: white;
 }
 
@@ -344,7 +344,6 @@ a {
     transition: 0.4s;
 }
 
-.activenav,
 .accordion:hover {
     background-color: rgba(217, 238, 253, 0.822);
 }
