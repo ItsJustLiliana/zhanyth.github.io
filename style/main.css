@@ -11,7 +11,7 @@ body {
 
 /* Index */
 .imagebg {
-    background: linear-gradient(to top, #00000073 20%, #000000a4 70%, black 100%), url('/zhanyth.github.io/images/mountains1.jpg');
+    background: linear-gradient(to top, #00000073 20%, #000000a4 70%, black 100%), url('images/mountains1.jpg');
     background-color: #000000;
     background-repeat: no-repeat;
     background-attachment: fixed;
