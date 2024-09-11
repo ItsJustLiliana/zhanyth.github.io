@@ -4,13 +4,101 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: left;
+    overflow-x: hidden;
+}
+
+
+
+/* Index */
+.imagebg {
+    background: linear-gradient(to top, #00000073 20%, #000000a4 70%, black 100%), url('/zhanyth.github.io/images/mountains1.jpg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.imageblur {
+    max-width: 104%;
+    background-size: cover;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 20%, black 80%, rgb(0, 0, 0) 100%);
+    position: relative;
+    right: 2%;
+    top: 340px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    color: black;
+    font-size: 17px;
+    font-family: Kanit;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.links:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.textindex {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    top: 1300px;
+    left: 200px;
+    margin-right: 60%;
+}
+
+.titleindex {
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    top: 1250px;
+    left: 200px;
+    margin-right: 60%;
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0560d8cb;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0047a3cb;
 }
 
 
 
 /* Navigation bar */
 .topnav {
-    background-color: #000000dc;
+    background-color: black;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -46,7 +134,7 @@ body {
     float: left;
     width: 47px;
     position: relative;
-    margin-top: 10px;
+    margin-top: 4px;
     margin-left: 10px;
 }
 
@@ -84,10 +172,9 @@ h2 {
 
 .title {
     color: white;
-    font-size: 22px;
+    font-size: 23px;
     font-style: bold;
     font-family: sans-serif;
-
 }
 
 p {
@@ -193,7 +280,7 @@ a {
 /* The footer */
 .footer {
     font-family: Kanit;
-    color: black;
+    color: rgb(255, 255, 255);
 
     border-radius: 0px;
     border: 2px solid rgb(255, 255, 255);
@@ -212,10 +299,9 @@ a {
 }
 
 
-
 /* Bottom navigation bar */
 .bottomnav {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.568);
     overflow: hidden;
 
     position: fixed;
@@ -227,7 +313,7 @@ a {
 
 .bottomnav a {
     float: left;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-family: Kanit;
     padding: 8px 14px;
@@ -350,6 +436,44 @@ img {
 
 
 
+/* Blogposts */
+.blogbox {
+    display: block;
+    width: 100%;
+    background-color: #ffffff14;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 50%;
+}
+
+.readmore {
+    color: black;
+    font-size: 13px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blogtext {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-right: 3%;
+}
+
+.blogpagetext {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-right: 50%;
+}
 
 
 
@@ -365,6 +489,10 @@ img {
 
 .divfaq {
     margin-top: 35px;
+}
+
+.divblog {
+    margin-top: 25px;
 }
 
 .div1 {
@@ -393,5 +521,25 @@ img {
 
 ::-moz-selection {
     background: rgba(255, 255, 255, 0.379);
+    /* Gecko Browsers */
+}
+
+.imageblur::selection {
+    background: rgba(0, 0, 0, 0);
+    /* WebKit/Blink Browsers */
+}
+
+.imageblur::-moz-selection {
+    background: rgba(0, 0, 0, 0);
+    /* Gecko Browsers */
+}
+
+.secret::selection {
+    background: rgba(0, 0, 0, 0);
+    /* WebKit/Blink Browsers */
+}
+
+.secret::-moz-selection {
+    background: rgba(0, 0, 0, 0);
     /* Gecko Browsers */
 }
