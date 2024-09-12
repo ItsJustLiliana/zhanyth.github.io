@@ -77,6 +77,19 @@ body {
 
 
 
+/* Profile */
+.image-p {
+    position: relative;
+    left: 700px;
+    bottom: 760px
+}
+
+.spotify {
+    position: relative;
+    bottom: 220px;
+}
+
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
