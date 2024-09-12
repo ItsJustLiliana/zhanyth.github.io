@@ -1,4 +1,4 @@
-/* Main body */
+/* ---------Main body--------- */
 body {
     background: linear-gradient(to bottom, black 50%, #2071dc 100%);
     background-repeat: no-repeat;
@@ -8,8 +8,156 @@ body {
 }
 
 
+/* Explanatory text and titles*/
+article {
+    color: white;
+    font-family: Kanit;
+    margin-top: 30px;
+}
 
-/* Index */
+h2 {
+    color: rgb(217, 238, 253);
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.title {
+    color: white;
+    font-size: 23px;
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: Kanit;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.box {
+    display: block;
+    width: 100%;
+    background-color: #ffffff14;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 675px;
+}
+
+h1 {
+    color: rgb(217, 238, 253);
+    font-size: 40px;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+
+/* Header and navigation bar */
+#hz-logo {
+    float: left;
+    width: 47px;
+    position: relative;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+nav {
+    color: black;
+    font-family: Kanit;
+    text-decoration: none;
+    font-style: bold;
+    text-align: center;
+    position: relative;
+    left: 11px;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-family: Kanit;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ffffffcd;
+    color: black;
+}
+
+.topnav a.activenav {
+    background-color: #0560d8a4;
+    color: white;
+}
+
+
+/* The footer and bottom navigation bar */
+.footer {
+    font-family: Kanit;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border: 2px solid rgb(255, 255, 255);
+    border-spacing: 40px 0px;
+    border-width: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.bottomnav {
+    background-color: rgba(0, 0, 0, 0.568);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.bottomnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-family: Kanit;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+
+.bottomav a:hover {
+    background-color: #ffffffcd;
+    color: black;
+}
+
+
+
+
+/* ---------INDEX--------- */
 .imagebg {
     background: linear-gradient(to top, #00000073 20%, #000000a4 70%, black 100%), url('https://zhanyth.github.io/images/mountains1.jpg');
     background-color: #000000;
@@ -77,11 +225,13 @@ body {
 
 
 
-/* Profile */
+
+/* ---------PROFILE--------- */
 .image-p {
     position: relative;
     left: 700px;
-    bottom: 760px
+    bottom: 860px;
+    max-width: 500px;
 }
 
 .spotify {
@@ -90,304 +240,9 @@ body {
 }
 
 
-/* Scrollbar */
-::-webkit-scrollbar {
-    width: 10px;
-    background: rgb(0, 0, 0);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #0560d8cb;
-    border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #0047a3cb;
-}
 
 
-
-/* Navigation bar */
-.topnav {
-    background-color: black;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 5;
-}
-
-.topnav a {
-    float: left;
-    color: #ffffff;
-    text-align: center;
-    font-family: Kanit;
-    padding: 19px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: #ffffffcd;
-    color: black;
-}
-
-.topnav a.activenav {
-    background-color: #0560d8a4;
-    color: white;
-}
-
-
-
-/* Header */
-#hz-logo {
-    float: left;
-    width: 47px;
-    position: relative;
-    margin-top: 4px;
-    margin-left: 10px;
-}
-
-nav {
-    color: black;
-    font-family: Kanit;
-    text-decoration: none;
-    font-style: bold;
-    text-align: center;
-    position: relative;
-    left: 11px;
-}
-
-h1 {
-    color: rgb(217, 238, 253);
-    font-size: 40px;
-    font-family: Tahoma;
-    text-align: center;
-}
-
-
-
-/* Explanatory text and titles*/
-article {
-    color: white;
-    font-family: Kanit;
-    margin-top: 30px;
-}
-
-h2 {
-    color: rgb(217, 238, 253);
-    font-size: 40px;
-    font-family: sans-serif;
-}
-
-.title {
-    color: white;
-    font-size: 23px;
-    font-style: bold;
-    font-family: sans-serif;
-}
-
-p {
-    color: white;
-    font-size: 18px;
-    font-family: Kanit;
-}
-
-.text {
-    color: white;
-    font-size: 16px;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-}
-
-.box {
-    display: block;
-    width: 100%;
-    background-color: #ffffff14;
-    border-radius: 10px;
-    border: solid 1px;
-    padding-left: 20px;
-    padding-top: 20px;
-    max-width: 675px;
-}
-
-
-
-/* Table design */
-.table_component {
-    overflow: auto;
-    width: 100%;
-}
-
-.table_component table {
-    border: 1px solid #ffffff;
-    height: 100%;
-    width: 1000px;
-    table-layout: fixed;
-    border-collapse: collapse;
-    border-spacing: 1px;
-    text-align: left;
-}
-
-.table_component caption {
-    caption-side: top;
-    text-align: left;
-}
-
-.table_component th {
-    /*header*/
-    border: 1px solid #ffffff;
-    background-color: rgba(94, 188, 255, 0.444);
-    color: #ffffff;
-    padding: 5px;
-}
-
-.table_component td {
-    /*content*/
-    border: 1px solid #ffffff;
-    background-color: #ffffff14;
-    color: #ffffff;
-    padding: 5px;
-}
-
-
-
-/* Progress bar */
-progress {
-    display: block;
-    position: relative;
-    appearance: none;
-    width: 1000px;
-    height: 15px;
-    border: 2px solid white;
-    border-radius: 20px;
-}
-
-progress::-webkit-progress-bar {
-    background-color: #ffffff14;
-    border: 0;
-    height: 12px;
-    border-radius: 20px;
-}
-
-progress::-webkit-progress-value {
-    background-color: rgba(94, 188, 255, 0.623);
-    border: 0;
-    height: 12px;
-    border-radius: 20px;
-}
-
-
-
-/* Remove line from links */
-a {
-    text-decoration: none;
-    color: black;
-}
-
-
-
-/* The footer */
-.footer {
-    font-family: Kanit;
-    color: rgb(255, 255, 255);
-
-    border-radius: 0px;
-    border: 2px solid rgb(255, 255, 255);
-    border-spacing: 40px 0px;
-    border-width: 10px;
-
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-
-    background-color: rgb(255, 255, 255);
-    background-size: 20px;
-    color: black;
-    text-align: left;
-}
-
-
-/* Bottom navigation bar */
-.bottomnav {
-    background-color: rgba(0, 0, 0, 0.568);
-    overflow: hidden;
-
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 5;
-}
-
-.bottomnav a {
-    float: left;
-    color: #ffffff;
-    text-align: center;
-    font-family: Kanit;
-    padding: 8px 14px;
-    text-decoration: none;
-    font-size: 13px;
-    letter-spacing: 0.8px;
-}
-
-.bottomav a:hover {
-    background-color: #ffffffcd;
-    color: black;
-}
-
-
-
-/* Dropdown menu */
-.accordion {
-    background-color: #ffffffcd;
-    color: #000000;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 17px;
-    font-family: Kanit;
-    transition: 0.4s;
-}
-
-.accordion:hover {
-    background-color: rgba(217, 238, 253, 0.822);
-}
-
-.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2212";
-}
-
-.panel {
-    padding: 0 18px;
-    background-color: rgba(255, 255, 255, 0);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-.summary {
-    margin-right: 100px;
-}
-
-
-
-/* Slideshows */
+/* ---------GAMES: Slideshows--------- */
 .mySlides1,
 .mySlides2 {
     display: none;
@@ -433,13 +288,13 @@ img {
     user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Position "next" to right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a grey background color */
+/* On hover */
 .prev:hover,
 .next:hover {
     background-color: #f1f1f1;
@@ -448,7 +303,8 @@ img {
 
 
 
-/* Blogposts */
+
+/* ---------BLOG: Blogposts--------- */
 .blogbox {
     display: block;
     width: 100%;
@@ -485,6 +341,150 @@ img {
     font-family: sans-serif;
     letter-spacing: 1px;
     margin-right: 50%;
+}
+
+
+
+
+/* ---------DASHBOARD: Table design--------- */
+.table_component {
+    overflow: auto;
+    width: 100%;
+}
+
+.table_component table {
+    border: 1px solid #ffffff;
+    height: 100%;
+    width: 1000px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+.table_component caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.table_component th {
+    /*header*/
+    border: 1px solid #ffffff;
+    background-color: rgba(94, 188, 255, 0.444);
+    color: #ffffff;
+    padding: 5px;
+}
+
+.table_component td {
+    /*content*/
+    border: 1px solid #ffffff;
+    background-color: #ffffff14;
+    color: #ffffff;
+    padding: 5px;
+}
+
+
+
+
+/* ---------DASHBOARD: Progress bar--------- */
+progress {
+    display: block;
+    position: relative;
+    appearance: none;
+    width: 1000px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #ffffff14;
+    border: 0;
+    height: 12px;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgba(94, 188, 255, 0.623);
+    border: 0;
+    height: 12px;
+    border-radius: 20px;
+}
+
+
+
+
+/* ---------FAQ: dropdown menu--------- */
+.accordion {
+    background-color: #ffffffcd;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    font-family: Kanit;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: rgba(217, 238, 253, 0.822);
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgba(255, 255, 255, 0);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.summary {
+    margin-right: 100px;
+}
+
+
+
+
+/* ---------OTHER--------- */
+
+/* Remove line from links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0560d8cb;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0047a3cb;
 }
 
 
