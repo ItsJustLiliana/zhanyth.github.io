@@ -7,6 +7,7 @@ body {
     background-attachment: fixed;
     text-align: left;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -61,7 +62,7 @@ nav {
 }
 
 h1 {
-    color: rgba(255, 0, 0, 0.397);
+    color: rgb(63, 0, 0);
     font-size: 60px;
     font-family: monospace;
     text-align: center;
@@ -76,7 +77,7 @@ article {
 }
 
 h2 {
-    color: rgba(255, 0, 0, 0.397);
+    color: rgb(55, 0, 0);
     font-size: 30px;
     font-family: monospace;
     text-align: center;
@@ -93,7 +94,7 @@ h2 {
 }
 
 p {
-    color: rgba(255, 0, 0, 0.521);
+    color: rgb(37, 0, 0);
     font-size: 40px;
     font-family: Kanit;
 }
@@ -106,6 +107,22 @@ p {
 }
 
 
+.texth2 {
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    margin-inline-start: 31%;
+    margin-inline-end: 31%;
+}
+
+.texth2:hover {
+    background-color: #ffffff00;
+    color: rgb(55, 0, 0);
+}
+
+
+
 /* Remove line from links */
 a {
     text-decoration: none;
@@ -114,9 +131,13 @@ a {
 
 
 
-
-
-/* V not much used V */
+.imagebg {
+    background: linear-gradient(to top, #00000073 20%, #000000a4 21%, #000000a4 99%, black 100%), url('verwirrung/_/cresent_crimson.png');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 
 
 
