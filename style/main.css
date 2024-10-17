@@ -252,7 +252,7 @@ nav {
     float: right;
     max-width: 500px;
     margin-top: 50px;
-    margin-right: 2%;
+    margin-right: 5%;
 }
 
 
@@ -367,6 +367,9 @@ img {
     border-radius: 10px;
 
     float: right !important;
+    position: relative;
+    bottom: 200px;
+
     max-width: 500px;
     margin-top: 50px;
     margin-right: 2%;
