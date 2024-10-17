@@ -361,6 +361,17 @@ img {
     margin-right: 50%;
 }
 
+.blogimg {
+    border: solid 1px !important;
+    border-color: white !important;
+    border-radius: 10px;
+
+    float: right !important;
+    max-width: 500px;
+    margin-top: 50px;
+    margin-right: 2%;
+}
+
 
 
 
