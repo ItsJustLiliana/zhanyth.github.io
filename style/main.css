@@ -146,7 +146,7 @@ nav {
 }
 
 .bottomnav {
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.849);
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -189,7 +189,7 @@ nav {
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 20%, black 80%, rgb(0, 0, 0) 100%);
     position: relative;
     right: 2%;
-    top: 340px;
+    top: 540px;
 }
 
 .center {
@@ -245,15 +245,14 @@ nav {
 
 /* ---------PROFILE--------- */
 .image-p {
-    position: relative;
-    left: 700px;
-    bottom: 860px;
-    max-width: 500px;
-}
+    border: solid 1px !important;
+    border-color: white !important;
+    border-radius: 10px;
 
-.spotify {
-    position: relative;
-    bottom: 220px;
+    float: right;
+    max-width: 500px;
+    margin-top: 50px;
+    margin-right: 2%;
 }
 
 
@@ -436,8 +435,11 @@ progress::-webkit-progress-value {
 
 /* ---------FAQ: dropdown menu--------- */
 .accordion {
-    background-color: #ffffffcd;
-    color: #000000;
+    background-color: #ffffff14;
+    border: solid 1px !important;
+    border-color: white !important;
+
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -450,7 +452,7 @@ progress::-webkit-progress-value {
 }
 
 .accordion:hover {
-    background-color: rgba(217, 238, 253, 0.822);
+    background-color: #ffffff3d;
 }
 
 .accordion:after {
@@ -467,7 +469,7 @@ progress::-webkit-progress-value {
 
 .panel {
     padding: 0 18px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 0, 0, 0);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
