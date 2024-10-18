@@ -33,7 +33,7 @@ body {
 
 .topnav a:hover {
     background-color: #ffffff00;
-    color: rgba(255, 0, 0, 0.562);
+    color: rgba(159, 0, 0, 0.562);
 }
 
 .topnav a.active {
@@ -131,7 +131,7 @@ a {
 
 
 
-.imagebg {
+.image-bg {
     background: linear-gradient(to top, #00000073 20%, #000000a4 21%, #000000a4 99%, black 100%), url('verwirrung/_/cresent_crimson.png');
     background-color: #000000;
     background-repeat: no-repeat;
