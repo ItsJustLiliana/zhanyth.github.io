@@ -593,3 +593,13 @@ a {
     background: rgba(0, 0, 0, 0);
     /* Gecko Browsers */
 }
+
+.secret::selection {
+    background: rgba(0, 0, 0, 0);
+    /* WebKit/Blink Browsers */
+}
+
+.secret::-moz-selection {
+    background: rgba(0, 0, 0, 0);
+    /* Gecko Browsers */
+}
