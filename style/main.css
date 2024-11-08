@@ -521,13 +521,13 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #0560d8cb;
-    border-radius: 5px;
+    background: #ffffff;
+    border-radius: 1px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #0047a3cb;
+    background: #ffffffd1;
 }
 
 
